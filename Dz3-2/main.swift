@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let user = UserAccount(username: "john_doe", password: "securePassword")
 
+
+user.login()
+user.changePassword(newPassword: "newSecurePassword")
+
+
+let extractedUsername = user.getUsername()
+print("Public username: \(extractedUsername)")
