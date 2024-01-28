@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AFB9210F2B5E89440060560A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9210E2B5E89440060560A /* main.swift */; };
 		AFB921182B5E8C1D0060560A /* UserAccaunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB921172B5E8C1D0060560A /* UserAccaunt.swift */; };
+		AFB921612B66DFCD0060560A /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB921602B66DFCD0060560A /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		AFB9210B2B5E89440060560A /* Dz3-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dz3-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB9210E2B5E89440060560A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AFB921172B5E8C1D0060560A /* UserAccaunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccaunt.swift; sourceTree = "<group>"; };
+		AFB921602B66DFCD0060560A /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				AFB9210E2B5E89440060560A /* main.swift */,
 				AFB921172B5E8C1D0060560A /* UserAccaunt.swift */,
+				AFB921602B66DFCD0060560A /* Protocol.swift */,
 			);
 			path = "Dz3-2";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				AFB921182B5E8C1D0060560A /* UserAccaunt.swift in Sources */,
 				AFB9210F2B5E89440060560A /* main.swift in Sources */,
+				AFB921612B66DFCD0060560A /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

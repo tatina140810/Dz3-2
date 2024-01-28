@@ -7,11 +7,11 @@
 
 import Foundation
 
-let user = UserAccount(username: "john_doe", password: "securePassword")
+let user = UserAccount(username: "Alex", password: "SomthingInteresting")
 
 
 user.login()
-user.changePassword(newPassword: "newSecurePassword")
+user.changePassword(newPassword: "newLongWord")
 
 
 let extractedUsername = user.getUsername()

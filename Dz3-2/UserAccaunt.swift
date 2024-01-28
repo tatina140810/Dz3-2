@@ -7,9 +7,10 @@
 
 import Foundation
 
-class UserAccount {
-    private var username: String
-    private var password: String
+class UserAccount: User {
+   
+    var username: String
+    var password: String
     
     init(username: String, password: String) {
         self.username = username
