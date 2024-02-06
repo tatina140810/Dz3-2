@@ -8,9 +8,9 @@
 import Foundation
 
 protocol User {
+    
     var username: String { get set }
     var password: String { get set }
     
-    func login() 
+    func login()
 }
-

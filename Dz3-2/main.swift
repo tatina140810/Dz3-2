@@ -7,12 +7,13 @@
 
 import Foundation
 
-let user = UserAccount(username: "Alex", password: "SomthingInteresting")
+let user = UserAccount(username: "Alex", password: "SomthingInteresting", additionalInfo: "IOS Student")
 
 
 user.login()
 user.changePassword(newPassword: "newLongWord")
 
+user.setAdditionalInfo(newInfo: "IOS Student")
 
 let extractedUsername = user.getUsername()
 print("Public username: \(extractedUsername)")

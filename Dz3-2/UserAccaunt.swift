@@ -7,14 +7,16 @@
 
 import Foundation
 
-class UserAccount: User {
-   
+class UserAccount<T>: User {
+    
     var username: String
     var password: String
+    var additionalInfo: T // Дженерик
     
-    init(username: String, password: String) {
+    init(username: String, password: String, additionalInfo: T) {
         self.username = username
         self.password = password
+        self.additionalInfo = additionalInfo
     }
     
     func changePassword(newPassword: String) {
@@ -25,6 +27,14 @@ class UserAccount: User {
     func login() {
         print("User \(username) logged in.")
     }
+    
+    var computedProperty: String { // Вычисляемое свойство
+        return "Computed property value"
+    }
+    func setAdditionalInfo(newInfo: T) {
+            additionalInfo = newInfo
+            print("Additional info: \(newInfo)")
+        }
 }
 
 extension UserAccount {
